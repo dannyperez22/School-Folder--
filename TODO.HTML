@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>ToDo List</h1>
+    <!-- <input name="textInput" id="todoInput" type="text" placeholder="enter key test" onkeydown="search()"> -->
+    <input type="submit" value="Add To List">
+        <!-- Input type submit is another way to add a button. -->
+        <!-- <button 
+        id="buttonId" 
+        type="button" 
+        onclick="todoListCreator()"
+        > Add To List</button> -->
+    <form id="todoForm">
+        <input 
+        name="textInput" 
+        id="todoInput" 
+        type="text" 
+        placeholder="enter key test" 
+        onkeydown="search()">
+        <!-- input is used to pull the data -->
+        
+        <!-- The button is how I will pull the form.  -->
+         <!-- I need to use the default thing somehwere -->
+    </form>
+<!-- This means I have a function for todoList, and when I click on it, it will do something. In this case we want it to "add to list" -->
+    <ol id="todoList"></ol> 
+    <!-- Everything that gets created will be appended to my ordred todo list. -->
+
+    <script src= "TODOClean.JS"></script>
+</body>
+</html>
+
+<!-- Tried this code in an attempt to make the enter key in the text box to have the same effect as clicking the button. This did not work. =( -->
+<!-- onkeydown = "if (event.keyCode == 13)
+                        document.getElementById('todoInput').click()"     -->
+<!-- <input type = "button"
+       id = "btnSearch"
+       value = "Search"
+       onclick = "doSomething();"
+/> -->
