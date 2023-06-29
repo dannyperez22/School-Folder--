@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator Attempt</title>
+    <link rel="stylesheet" href="MemeGenerator.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Meme Generator</h1>
+        <!-- <p><a href="https://giphy.com/"></a></p> -->
+        https://giphy.com/
+        <iframe src="https://giphy.com/" title="giphy" width="" height=""></iframe>
+        <!-- I can't find a website that would work properly here.  -->
+        <div class="meme-form">
+          <input type="text" id="topText" placeholder="Top Text">
+          <input type="text" id="bottomText" placeholder="Bottom Text">
+          <button onclick="generateMeme()">Generate</button>
+        </div>
+        <div class="meme">
+          <img src="" alt="Generated Meme" id="memeImage">
+          <div class="top-text" id="topTextOutput"></div>
+          <div class="bottom-text" id="bottomTextOutput"></div>
+        </div>
+      </div>
+      <div class="meme" id="memeContainer">
+        <img src="" alt="Generated Meme" id="memeImage">
+        <div class="top-text" id="topTextOutput"></div>
+        <div class="bottom-text" id="bottomTextOutput"></div>
+      </div>
+      <script src="MemeGenerator.js"></script>
+</body>
+</html>
+
+<!-- <div class="container">
+    <h1>Meme Generator</h1>
+    <div class="meme-form">
+      <input type="text" id="topText" placeholder="Top Text">
+      <input type="text" id="bottomText" placeholder="Bottom Text">
+      <button onclick="generateMeme()">Generate</button>
+    </div>
+    <div id="memeContainer"></div>
+    <button id="removeButton" onclick="removeMeme()">Remove Meme</button>
+  </div> -->
