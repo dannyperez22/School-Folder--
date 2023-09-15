@@ -1,0 +1,32 @@
+Branching Exercise
+Part I
+Answer the following questions:
+
+What git command creates a branch? git branch "file name" (git checkout -b??)
+
+What is the difference between a fast-forward and recursive merge? The difference is when the commit occurs. fast-forward merge is when one set of commits get placed on top of another set of commits in chronological order. recursive merge when commits are not chronological or when different commits happen at different times on two branches. 
+
+What git command changes to another branch? git checkout "file name"
+
+What git command deletes a branch? git branch -d - Deletes branch. However, if there are any commits on this branch you will get an error that says use: git branch -D to delete a branch with commits on it. 
+
+How do merge conflicts happen? When more than one commit of the same file occurs. 
+
+
+Part II
+
+Practice with fast forward and recursive merges! Make a branch and add and commit onto it and merge it back into master.
+
+Try to create your own merge conflict by modifying the same file on two separate commits on two separate branches.
+
+Getting an error when I try to add a branch. Not sure what I'm doing wrong. I've asked the slack community but I'm going to move on for now. 
+
+daniel@LAPTOP-Q73CSQQM:~$ git branch add-merge
+fatal: Not a valid object name: 'master'.
+
+**I am not able to add branches and I'm not sure why. Having to go back into the videos. 
+
+used git init to reinitialize a working repository I was using previously. (system shutdown for update)
+
+05_branching_intro video: 
+@4:12 shows 2 separate files. How are these files ccreated again? Have to go back furthur. 
